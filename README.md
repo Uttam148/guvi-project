@@ -2,9 +2,6 @@
 student database
 🔧 Step 1: Run This SQL First (in MySQL Workbench or CLI)
 
-sql
-Copy
-Edit
 CREATE DATABASE studentdb;
 
 USE studentdb;
@@ -16,9 +13,7 @@ CREATE TABLE students (
     course VARCHAR(50)
 );
 🧠 Step 2: Full Java Code (Single Block)
-java
-Copy
-Edit
+
 // Save as Main.java
 
 import javax.swing.*;
