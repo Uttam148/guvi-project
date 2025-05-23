@@ -19,12 +19,14 @@ java
 Copy
 Edit
 // Save as Main.java
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
 
 // --- Model Class ---
+
 class Student {
     private String id, name, course;
     private int age;
@@ -43,6 +45,7 @@ class Student {
 }
 
 // --- JDBC Utility ---
+
 class DBUtil {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
@@ -52,6 +55,7 @@ class DBUtil {
 }
 
 // --- DAO Class ---
+
 class StudentDAO {
     public static boolean add(Student s) throws SQLException {
         String sql = "INSERT INTO students VALUES (?, ?, ?, ?)";
@@ -100,6 +104,7 @@ class StudentDAO {
 }
 
 // --- GUI Class ---
+
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
