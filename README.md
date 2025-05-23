@@ -1,6 +1,7 @@
 # guvi-project
 student database
 🔧 Step 1: Run This SQL First (in MySQL Workbench or CLI)
+
 sql
 Copy
 Edit
