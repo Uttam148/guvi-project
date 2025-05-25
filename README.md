@@ -1,5 +1,6 @@
 # guvi-project
 student database
+
 🔧 Step 1: Run This SQL First (in MySQL Workbench or CLI)
 
 CREATE DATABASE studentdb;
@@ -12,6 +13,7 @@ CREATE TABLE students (
     age INT,
     course VARCHAR(50)
 );
+
 🧠 Step 2: Full Java Code (Single Block)
 
 // Save as Main.java
